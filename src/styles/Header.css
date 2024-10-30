@@ -1,0 +1,43 @@
+/* Header Styling */
+.header {
+    width: 100vw; /* Full viewport width */
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center-aligns title */
+    background-color: #333;
+    color: #fff;
+    position: fixed; /* Keeps header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+  }
+  
+  .logo {
+    position: absolute;
+    left: 15px; /* Fixes the logo to the left */
+    height: 40px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Responsive adjustments for mobile */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  
+    .logo {
+      height: 30px; /* Adjust logo size for mobile */
+    }
+  }
+  h1 {
+    font-size: 2em;
+    color:white;
+    margin-top: 0;
+  }

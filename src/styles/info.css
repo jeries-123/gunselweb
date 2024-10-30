@@ -1,0 +1,177 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb a {
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Small Image Below Breadcrumb with Hover Effect */
+.below-breadcrumb-image {
+    display: block;
+    width: 100%; /* Full width within content area */
+    height: 120px; /* Small initial height */
+    object-fit: cover; /* Ensures full image fits within the height */
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, height 0.5s ease;
+    cursor: pointer; /* Indicate interactivity */
+    overflow: hidden;
+}
+
+/* Hover Effect to Expand Image */
+.below-breadcrumb-image:hover {
+    transform: scale(1.1); /* Slight increase on hover */
+    height: auto; /* Show full height of image on hover */
+    z-index: 10;
+}
+
+/* Page Layout */
+.neu-page {
+    display: flex;
+    padding-top: 80px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+/* Info Box (Sidebar) */
+.info-box {
+    width: 250px;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: fixed;
+    top: 100px;
+    
+    left: 0;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+/* Info Box Closed State */
+.info-box.closed {
+    transform: translateX(-100%);
+}
+
+/* Adjusts content area when info box toggles */
+.info-box.closed ~ .content {
+    margin-left: 0;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    background: #333;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* Info Box Content */
+.info-box h2 {
+    color: #8b0000;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.info-item {
+    margin-bottom: 15px;
+}
+
+.info-item strong {
+    display: block;
+    color: #fff;
+}
+
+.info-item p {
+    margin: 5px 0;
+    color: #ddd;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 270px; /* Leaves space for fixed info box */
+    transition: margin-left 0.3s ease; /* Smooth transition with sidebar */
+}
+
+/* Main Content Additional Styling */
+h2, h3, h4 {
+    color: #8b0000;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Article Meta */
+.article-meta {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.article-type,
+.read-time {
+    margin-right: 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .neu-page {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .below-breadcrumb-image {
+        max-width: 100%;
+        margin: 10px auto;
+        height: 60px; /* Smaller height for mobile */
+    }
+
+    .below-breadcrumb-image:hover {
+        transform: scale(1.05); /* Adjust scale for smaller screens */
+    }
+
+    .info-box {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+        top: 0;
+    }
+}
