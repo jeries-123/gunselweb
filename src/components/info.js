@@ -103,11 +103,11 @@ function Info() {
             </div>
             <div>
               <h4>Veterinary Hospital</h4>
-              <p>Gunsel City’s veterinary hospital stands as a center of excellence in animal health and care, providing both educational and practical resources for veterinary students. This facility also contributes to research in veterinary science and advances in animal health technologies.</p>
+              <p>Gunsel City’s  <a href="/veterinary" className="link">veterinary</a> hospital stands as a center of excellence in animal health and care, providing both educational and practical resources for veterinary students. This facility also contributes to research in veterinary science and advances in animal health technologies.</p>
             </div>
             <div>
               <h4>Dental Research and Training Center</h4>
-              <p>The dentistry center within Gunsel City offers state-of-the-art equipment and training resources for dental students. It also conducts research in dental science, with a focus on improving dental care practices and advancing oral health research.</p>
+              <p>The <a href="/dentistry" className="link">dentistry</a> center within Gunsel City offers state-of-the-art equipment and training resources for dental students. It also conducts research in dental science, with a focus on improving dental care practices and advancing oral health research.</p>
             </div>
             <h4>Health and Wellness Center</h4>
             <p>This center not only serves the community but also contributes to public health research and education. Equipped with modern technology, it offers extensive health services and hosts wellness programs, enhancing the quality of life for the university community.</p>
@@ -144,7 +144,7 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
             <h3>Centers of Excellence</h3>
             <p>Gunsel City is home to centers dedicated to enhancing educational and research capabilities across disciplines.</p>
             <div>
-              <h4>Innovation and Entrepreneurship Center</h4>
+              <h4>The <a href="/innovation" className="link">Innovation</a> and Entrepreneurship Center</h4>
               <p>The center fosters a culture of innovation by supporting startups, providing incubation services, and facilitating access to funding. Programs within this center are tailored to guide young entrepreneurs and help them bring their technological ideas to market. Gunsel’s incubator program has supported numerous tech-based startups, which have now gained traction in local and international markets.</p>
             </div>
             <div>
@@ -158,7 +158,7 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
           </section>
           <section className="gunsel-cars">
             <h3>Gunsel Cars Company</h3>
-            <p>A pivotal branch of Gunsel City, Gunsel Cars Company embodies the city’s vision for sustainable and technologically advanced transportation. Known for producing electric vehicles tailored for both performance and environmental impact, Gunsel Cars has introduced models that incorporate cutting-edge battery technology, AI-based driving assistance, and highly efficient energy management systems.</p>
+            <p>A pivotal branch of Gunsel City, <a href="/gunsel" className="link">Gunsel Cars Company</a> embodies the city’s vision for sustainable and technologically advanced transportation. Known for producing electric vehicles tailored for both performance and environmental impact, Gunsel Cars has introduced models that incorporate cutting-edge battery technology, AI-based driving assistance, and highly efficient energy management systems.</p>
             
             <h4>Gunsel B9 and Sustainable Mobility</h4>
             <p>The Gunsel B9, the company’s flagship electric vehicle, reflects Gunsel City’s commitment to eco-friendly transport solutions. Designed with advanced safety features, the B9 serves as both a commuter car and a demonstration of innovation in sustainable automotive technology. The company collaborates closely with engineering and research teams at Gunsel City, making the B9 a model of continuous improvement and technological refinement.</p>
@@ -171,10 +171,10 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
             <h3>Additional Facilities</h3>
             
             <h4>Library and Knowledge Center</h4>
-            <p>Gunsel City’s library serves as a comprehensive knowledge center, offering extensive resources in digital and print formats for students, researchers, and the public. With specialized collections in science, engineering, and technology, the library is a crucial resource for academic and professional growth, providing access to global research databases, journals, and specialized publications.</p>
+            <p>Gunsel City’s <a href="/library" className="link">library</a> serves as a comprehensive knowledge center, offering extensive resources in digital and print formats for students, researchers, and the public. With specialized collections in science, engineering, and technology, the library is a crucial resource for academic and professional growth, providing access to global research databases, journals, and specialized publications.</p>
             
             <h4>Car Museum</h4>
-            <p>The Gunsel Car Museum showcases a historical collection of vehicles, representing the evolution of automotive engineering and design. The museum offers visitors an educational experience in the history of transportation, from early prototypes to modern electric vehicles, and highlights Gunsel Cars Company’s innovations in the field. It serves as an inspiration to students and automotive enthusiasts alike, demonstrating the strides made in sustainable automotive technology.</p>
+            <p>The Gunsel <a href="/museum" className="link">Car Museum</a> showcases a historical collection of vehicles, representing the evolution of automotive engineering and design. The museum offers visitors an educational experience in the history of transportation, from early prototypes to modern electric vehicles, and highlights Gunsel Cars Company’s innovations in the field. It serves as an inspiration to students and automotive enthusiasts alike, demonstrating the strides made in sustainable automotive technology.</p>
             
            
           </section>
