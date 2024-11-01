@@ -97,7 +97,7 @@ function Info() {
           <h4>Arts and science at Gunsel city </h4>
               <p>The <a href="/arts" className="link">Arts</a> at Gunsel city are an essential part of its vibrant academic and cultural community, offering students a dynamic environment to explore creativity and develop artistic skills. NEU is home to a variety of arts disciplines, including visual arts, performing arts, and design, with programs and facilities that support student expression and innovation.
 
-One of the standout elements of the university's commitment to the arts is the Faculty of Fine Arts and Design, where students delve into fields such as painting, sculpture, graphic design, and interior design. The faculty encourages hands-on learning, allowing students to cultivate their skills in a supportive atmosphere that blends traditional and contemporary approaches. Through exhibitions, workshops, and collaborations, students gain real-world experience and engage with the broader artistic community.</p>
+One of the standout elements of the university's commitment to the arts is the Faculty of Fine Arts and Design, where students delve into fields such as painting, sculpture, graphic design, and interior design. The faculty encourages hands-on learning, allowing students to cultivate their skills in a supportive atmosphere that blends traditional and contemporary approaches. Through exhibitions, workshops,<a href="https://neu.edu.tr/campus-life/museums/?lang=en" className="link">art museum</a>  ,and collaborations, students gain real-world experience and engage with the broader artistic community.</p>
             </div>
           </section>
      
