@@ -1,144 +1,152 @@
 /* Reset default styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  /* Main Page Layout */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main Page Layout */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 10px;
+  margin-top: 80px; /* Adds space below the fixed header */
+}
+
+/* Frame for 3D Model */
+.model-frame {
+  width: 100%;
+  max-width: 100vw;
+  height: 60vh;
+  background-color: #e8e8e8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Swipe Section */
+.swipe-section {
+  width: 90%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.swipe-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 0 10px;
+  transition: transform 0.4s ease;
+}
+
+.swipe-section.swiped .swipe-overlay {
+  transform: translateX(100%);
+}
+
+.swipe-text {
+  margin-left: 10px;
+  font-size: 1em;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive Caption */
+.caption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Responsive Styling for Mobile */
+@media (max-width: 768px) {
   .main-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100vw;
-    overflow-x: hidden;
-    padding: 10px;
+      margin-top: 70px; /* Adjust margin for smaller screens */
   }
-  
-  /* Frame for 3D Model */
+
   .model-frame {
-    width: 100%;
-    max-width: 100vw;
-    height: 60vh;
-    background-color: #e8e8e8;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Swipe Section */
-  .swipe-section {
-    width: 90%;
-    max-width: 400px;
-    padding: 15px;
-    margin: 20px 0;
-    text-align: center;
-    background-color: #ddd;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-  }
-  
-  .swipe-overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 50px;
-    background-color: rgba(255, 0, 0, 0.6);
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
-    border-radius: 25px;
-    padding: 0 10px;
-    transition: transform 0.4s ease;
-  }
-  
-  .swipe-section.swiped .swipe-overlay {
-    transform: translateX(100%);
-  }
-  
-  .swipe-text {
-    margin-left: 10px;
-    font-size: 1em;
-    color: #333;
-    font-weight: 500;
-    position: relative;
-    z-index: 1;
-  }
-  
-  /* Responsive Caption */
-  .caption {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
-  }
-  
-  /* Responsive Styling for Mobile */
-  @media (max-width: 768px) {
-    .model-frame {
       height: 40vh; /* Smaller height for mobile screens */
-      margin-top: 15px;
-    }
-  
-    .swipe-section {
+      margin-top: 40px;
+  }
+
+  .swipe-section {
       width: 100%;
       max-width: 90%;
       padding: 10px;
       margin: 15px 0;
       border-radius: 20px;
-    }
-  
-    .swipe-overlay {
+  }
+
+  .swipe-overlay {
       width: 40%; /* Slightly larger swipe overlay for better touch interaction */
       height: 45px;
       font-size: 0.9em;
-    }
-  
-    .swipe-text {
-      font-size: 0.9em;
-    }
-  
-    .caption {
-      font-size: 0.8em;
-    }
   }
-  
-  /* Extra Small Screens */
-  @media (max-width: 480px) {
-    .model-frame {
+
+  .swipe-text {
+      font-size: 0.9em;
+  }
+
+  .caption {
+      font-size: 0.8em;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .main-page {
+      margin-top: 60px; /* Further adjustment for very small screens */
+  }
+
+  .model-frame {
       height: 30vh; /* Even smaller height for very small screens */
-    }
-  
-    .swipe-overlay {
+  }
+
+  .swipe-overlay {
       width: 50%; /* Larger overlay width for easy swiping */
       height: 40px;
       font-size: 0.85em;
-    }
-  
-    .swipe-text {
+  }
+
+  .swipe-text {
       font-size: 0.8em;
       margin-left: 8px;
-    }
-  
-    .caption {
-      font-size: 0.75em;
-    }
   }
-  
+
+  .caption {
+      font-size: 0.75em;
+  }
+}

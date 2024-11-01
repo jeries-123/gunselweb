@@ -26,7 +26,7 @@ function Info() {
               <h2>Info Box</h2>
               <div className="info-item">
                 <strong>Name</strong>
-                <p>Gunsel City for Science and Technology</p>
+                <p>Gunsel City Arts,Science and Innovation</p>
               </div>
               <div className="info-item">
                 <strong>Category</strong>
@@ -34,7 +34,7 @@ function Info() {
               </div>
               <div className="info-item">
                 <strong>Acronym</strong>
-                <p>GCST</p>
+                <p>GCASI</p>
               </div>
               <div className="info-item">
                 <strong>Establishment</strong>
@@ -57,19 +57,19 @@ function Info() {
             <a href="/">Home</a> &gt; <a href="/universities">Universitie</a> &gt; 
           </nav>
           <img src="/1.jpeg" alt="Top Right Photo" className="below-breadcrumb-image" />
-          <h2> The Gunsel City for Science and Technology</h2>
+          <h2> The Gunsel City Arts,Science and Innovation</h2>
           <div className="article-meta">
            
           </div>
 
           <section className="intro">
-            <p>Gunsel City for Science and Technology at Near East University is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
+            <p>Gunsel City <a href="/arts" className="link">Arts</a>,Science and Innovation  is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
           </section>
 
           <section className="responsibilities">
             <h3>Responsibilities and Mission</h3>
             <p>Responsibilities and Mission
-            The mission of Gunsel City includes providing high-quality technology consulting services, developing mechanisms to convert scientific research into industrial and technological applications, and advancing a National Strategy focused on Industrial and Logistics Development. Gunsel City also plays an essential role in supporting universities and research centers with state-of-the-art facilities and guidance.</p>
+            The mission of Gunsel City includes providing high-quality arts and technology consulting services, developing mechanisms to convert scientific research into industrial and technological applications, and advancing a National Strategy focused on Industrial and Logistics Development. Gunsel City also plays an essential role in supporting universities and research centers with state-of-the-art facilities and guidance.</p>
           </section>
 
           <section className="historical-background">
@@ -79,7 +79,7 @@ function Info() {
           </section>
 
           <section className="service-fields">
-            <h3>Gunsel City for Science and Technology Service Fields</h3>
+            <h3>Gunsel City Of Arts ,Science and Innovation Service Fields</h3>
             <div>
               <h4>Scientific Research Support</h4>
               <p>Gunsel City provides resources to advance university-led research projects, supporting scholars with logistics, scientific advisory, and technical resources. These initiatives aim to align academic research with industry demands and enhance job market readiness through scientific programs designed from a supply-and-demand perspective.</p>
@@ -92,8 +92,15 @@ function Info() {
               <h4>Innovation and Entrepreneurship Support</h4>
               <p>Gunsel City places a strong emphasis on cultivating an ecosystem that supports innovation and entrepreneurship. Through programs dedicated to business incubation, technology transfer, and investment opportunities, Gunsel City enables transformative research to enter commercial markets. These services are complemented by mentorship and funding resources, which support start-ups and accelerate technological ventures.</p>
             </div>
-          </section>
+       
+          <div>
+          <h4>Arts and science at Gunsel city </h4>
+              <p>The <a href="/arts" className="link">Arts</a> at Gunsel city are an essential part of its vibrant academic and cultural community, offering students a dynamic environment to explore creativity and develop artistic skills. NEU is home to a variety of arts disciplines, including visual arts, performing arts, and design, with programs and facilities that support student expression and innovation.
 
+One of the standout elements of the university's commitment to the arts is the Faculty of Fine Arts and Design, where students delve into fields such as painting, sculpture, graphic design, and interior design. The faculty encourages hands-on learning, allowing students to cultivate their skills in a supportive atmosphere that blends traditional and contemporary approaches. Through exhibitions, workshops, and collaborations, students gain real-world experience and engage with the broader artistic community.</p>
+            </div>
+          </section>
+     
           <section className="medical-innovation">
             <h3>Medical and Health Innovation</h3>
             <div>
@@ -116,16 +123,16 @@ function Info() {
 
           <section className="key-achievements">
             <h3>Key Achievements of Gunsel City for Science and Technology</h3>
-            <p>Among the many notable accomplishments, Gunsel City’s innovations in technology and science have led to advancements in medical technology, breakthroughs in agricultural research, and collaborations with leading international institutions. Gunsel City is also recognized for its success in launching collaborative projects aimed at sustainable development and technology integration in regional industries.
+            <p>Among the many notable accomplishments, Gunsel City’s Arts,Science and Innovation have led to advancements in medical technology, breakthroughs in agricultural research, and collaborations with leading international institutions. Gunsel City is also recognized for its success in launching collaborative projects aimed at sustainable development and technology integration in regional industries.
 
 </p>
-<p>Roles and Functions of Gunsel City for Science and Technology
+<p>Roles and Functions of Gunsel City Of Arts,Science and Innovation
 Operating from its headquarters at Near East University, Gunsel City is charged with significant responsibilities, including fostering partnerships with international institutions, enhancing technology transfer initiatives, and supporting innovative solutions across disciplines. The center’s diverse roles encompass technological investment, providing strategic consultancy, and coordinating national science, technology, and innovation activities to address regional and global challenges.</p>
           </section>
 
           <section className="laboratories">
             <h3>Laboratories and Advanced Research Centers</h3>
-            <p>Gunsel City for Science and Technology houses a variety of laboratories that span across multiple fields, enabling groundbreaking research and practical training in science and engineering disciplines. These labs are designed with state-of-the-art equipment to support high-level research and experimentation.</p>
+            <p>Gunsel City Of Arts,Science and Innovation houses a variety of laboratories that span across multiple fields, enabling groundbreaking research and practical training in science and engineering disciplines. These labs are designed with state-of-the-art equipment to support high-level research and experimentation.</p>
             <div>
               <h4>Biomedical Laboratories</h4>
               <p>Dedicated to advancing medical science, Gunsel’s biomedical labs focus on genetics, cell biology, and disease research. These labs are pivotal in developing new diagnostics and treatments, allowing faculty and students to contribute to critical medical advancements.</p>
@@ -171,7 +178,7 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
             <h3>Additional Facilities</h3>
             
             <h4>Library and Knowledge Center</h4>
-            <p>Gunsel City’s <a href="/library" className="link">library</a> serves as a comprehensive knowledge center, offering extensive resources in digital and print formats for students, researchers, and the public. With specialized collections in science, engineering, and technology, the library is a crucial resource for academic and professional growth, providing access to global research databases, journals, and specialized publications.</p>
+            <p>Gunsel City’s <a href="/library" className="link">library</a> serves as a comprehensive knowledge center, offering extensive resources in digital and print formats for students, researchers, and the public. With specialized collections in science, engineering, and technology, the library is a crucial resource for academic and professional growth, providing access to global research databases,<a href="https://dergi.neu.edu.tr/" target="_blank"className="link">journals </a> , and specialized publications.</p>
             
             <h4>Car Museum</h4>
             <p>The Gunsel <a href="/museum" className="link">Car Museum</a> showcases a historical collection of vehicles, representing the evolution of automotive engineering and design. The museum offers visitors an educational experience in the history of transportation, from early prototypes to modern electric vehicles, and highlights Gunsel Cars Company’s innovations in the field. It serves as an inspiration to students and automotive enthusiasts alike, demonstrating the strides made in sustainable automotive technology.</p>
@@ -181,7 +188,7 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
 
           <section className="concluding-vision">
             <h3>Concluding Vision</h3>
-            <p>Gunsel City for Science and Technology stands as a testament to Near East University’s dedication to innovation, education, and societal advancement. By integrating research, education, and industry, Gunsel City not only supports technological progress but also enriches the academic and professional landscape across the region. Through its laboratories, specialized centers, and the groundbreaking work of Gunsel Cars, Gunsel City continues to drive scientific discovery and economic development.</p>
+            <p>Gunsel City Of Arts,Science and Innovation stands as a testament to Near East University’s dedication to innovation, education, and societal advancement. By integrating research, education, and industry, Gunsel City not only supports technological progress but also enriches the academic and professional landscape across the region. Through its laboratories, specialized centers, and the groundbreaking work of Gunsel Cars, Gunsel City continues to drive scientific discovery and economic development.</p>
           </section>
       
         </main>
