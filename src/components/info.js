@@ -26,7 +26,7 @@ function Info() {
               <h2>Info Box</h2>
               <div className="info-item">
                 <strong>Name</strong>
-                <p>Gunsel City Arts,Science and Innovation</p>
+                <p>Gunsel City of Arts,Science and Innovation</p>
               </div>
               <div className="info-item">
                 <strong>Category</strong>
@@ -57,13 +57,13 @@ function Info() {
             <a href="/">Home</a> &gt; <a href="/universities">Universitie</a> &gt; 
           </nav>
           <img src="/1.jpeg" alt="Top Right Photo" className="below-breadcrumb-image" />
-          <h2> The Gunsel City Arts,Science and Innovation</h2>
+          <h2> The Gunsel City of Arts,Science and Innovation</h2>
           <div className="article-meta">
            
           </div>
 
           <section className="intro">
-            <p>Gunsel City <a href="/arts" className="link">Arts</a>,Science and Innovation  is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
+            <p>Gunsel City of<a href="/arts" className="link">Arts</a>,Science and <a href="/innovation" className="link">Innovation</a> is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
           </section>
 
           <section className="responsibilities">
@@ -123,8 +123,8 @@ One of the standout elements of the university's commitment to the arts is the <
           </section>
 
           <section className="key-achievements">
-            <h3>Key Achievements of Gunsel City for Science and Technology</h3>
-            <p>Among the many notable accomplishments, Gunsel City’s Arts,Science and Innovation have led to advancements in medical technology, breakthroughs in agricultural research, and collaborations with leading international institutions. Gunsel City is also recognized for its success in launching collaborative projects aimed at sustainable development and technology integration in regional industries.
+            <h3>Key Achievements of Gunsel City of Arts,Science and Innovation</h3>
+            <p>Among the many notable accomplishments, Gunsel City’s of Arts,Science and Innovation have led to advancements in medical technology, breakthroughs in agricultural research, and collaborations with leading international institutions. Gunsel City is also recognized for its success in launching collaborative projects aimed at sustainable development and technology integration in regional industries.
 
 </p>
 <p>Roles and Functions of Gunsel City Of Arts,Science and Innovation
