@@ -86,7 +86,7 @@ function Info() {
             </div>
             <div>
               <h4>Laboratories and Technological Development</h4>
-              <p>The city hosts advanced laboratories and promotes technological services for students, faculty, and research professionals. This infrastructure ensures cutting-edge research capabilities and aids in the development of innovative scientific solutions. Gunsel City continually upgrades its laboratories and enhances its technical services, catering to various scientific disciplines and supporting hands-on, practical learning.</p>
+              <p>The city hosts advanced laboratories and promotes technological services for<a href="https://ogrencidekanligi.neu.edu.tr/student-life/student-clubs-and-associations/?lang=en" target="_blank" className="link">students</a> , faculty, and research professionals. This infrastructure ensures cutting-edge research capabilities and aids in the development of innovative scientific solutions. Gunsel City continually upgrades its laboratories and enhances its technical services, catering to various scientific disciplines and supporting hands-on, practical learning.</p>
             </div>
             <div>
               <h4>Innovation and Entrepreneurship Support</h4>
