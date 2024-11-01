@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage";
-import Info from "./components/Info";
+import Info from "./components/info";
 import HospitalPage from "./components/HospitalPage";
 import Veterinary from "./components/Veterinary";
 import Dentistry from "./components/dentistry";
