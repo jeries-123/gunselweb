@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/HospitalPage.css';
-
+import Footer from './footer'; 
 export default function HospitalPage() {
   return (
     <>
@@ -18,6 +18,8 @@ export default function HospitalPage() {
           ></iframe>
         </div>
       </main>
+      
+      <Footer /> 
     </>
   );
 }

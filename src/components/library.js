@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/library.css';
+import Footer from './footer'; 
 
 export default function library() {
   return (
@@ -18,6 +19,8 @@ export default function library() {
           ></iframe>
         </div>
       </main>
+      
+      <Footer /> 
     </>
   );
 }

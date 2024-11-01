@@ -7,7 +7,7 @@
   justify-content: center; /* Center-aligns title */
   background-color: #333;
   color: #fff;
-  position: fixed; /* Keeps header at the top */
+  position: sticky; /* Keeps header at the top */
   top: 0;
   left: 0;
   z-index: 1000; /* Ensures it stays above other content */

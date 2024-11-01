@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/Veterinary.css';
+import Footer from './footer'; 
 
 export default function veterinary() {
   return (
@@ -18,6 +19,8 @@ export default function veterinary() {
           ></iframe>
         </div>
       </main>
+      
+      <Footer /> 
     </>
   );
 }

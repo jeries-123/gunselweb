@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/info.css';
 import Header from './Header';
-
+import Footer from './footer'; 
 function Info() {
   const [isOpen, setIsOpen] = useState(true);
 
@@ -63,7 +63,7 @@ function Info() {
           </div>
 
           <section className="intro">
-            <p>Gunsel City of<a href="/arts" className="link">Arts</a>,Science and <a href="/innovation" className="link">Innovation</a> is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
+            <p>Gunsel City of <a href="/arts" className="link">Arts</a>,Science and <a href="/innovation" className="link">Innovation</a> is a leading hub for scientific research, innovation, and technological advancement in the region. The city serves as a cornerstone in advancing applied research, supporting university-based scientific initiatives, and transforming research outputs into impactful solutions that benefit various industrial sectors.</p>
           </section>
 
           <section className="responsibilities">
@@ -79,7 +79,7 @@ function Info() {
           </section>
 
           <section className="service-fields">
-            <h3>Gunsel City Of Arts ,Science and Innovation Service Fields</h3>
+            <h3>Gunsel City of Arts ,Science and Innovation Service Fields</h3>
             <div>
               <h4>Scientific Research Support</h4>
               <p>Gunsel City provides resources to advance university-led research projects, supporting scholars with logistics, scientific advisory, and technical resources. These initiatives aim to align academic research with industry demands and enhance job market readiness through scientific programs designed from a supply-and-demand perspective.</p>
@@ -189,11 +189,14 @@ Operating from its headquarters at Near East University, Gunsel City is charged 
 
           <section className="concluding-vision">
             <h3>Concluding Vision</h3>
-            <p>Gunsel City Of Arts,Science and Innovation stands as a testament to Near East University’s dedication to innovation, education, and societal advancement. By integrating research, education, and industry, Gunsel City not only supports technological progress but also enriches the academic and professional landscape across the region. Through its laboratories, specialized centers, and the groundbreaking work of Gunsel Cars, Gunsel City continues to drive scientific discovery and economic development.</p>
+            <p>Gunsel City of Arts,Science and Innovation stands as a testament to Near East University’s dedication to innovation, education, and societal advancement. By integrating research, education, and industry, Gunsel City not only supports technological progress but also enriches the academic and professional landscape across the region. Through its laboratories, specialized centers, and the groundbreaking work of Gunsel Cars, Gunsel City continues to drive scientific discovery and economic development.</p>
           </section>
       
         </main>
+        
+    
       </div>
+      <Footer /> 
     </>
   );
 }

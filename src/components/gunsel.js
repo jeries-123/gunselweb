@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/gunsel.css';
-
+import Footer from './footer'; 
 export default function gunsel() {
   return (
     <>
@@ -18,6 +18,8 @@ export default function gunsel() {
           ></iframe>
         </div>
       </main>
+      
+      <Footer /> 
     </>
   );
 }

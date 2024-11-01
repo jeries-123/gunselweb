@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/HospitalPage.css';
+import Footer from './footer'; 
 
 export default function innovation() {
   return (
@@ -18,6 +19,8 @@ export default function innovation() {
           ></iframe>
         </div>
       </main>
+      
+      <Footer /> 
     </>
   );
 }

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Header from './Header';
-import '../styles/mainpage.css';
+import Footer from './footer';  // Adjusted for naming consistency
 import '@google/model-viewer';
+import '../styles/mainpage.css';
 
 function ModelViewerComponent() {
   return (
@@ -40,6 +41,8 @@ function MainPage() {
         <div className="swipe-overlay">Swipe</div>
         <p className="swipe-text">View the Gunsel City for Technology and Science</p>
       </div>
+      
+      <Footer /> 
     </div>
   );
 }
